@@ -1,7 +1,5 @@
 public class Criba {
     public int[] generarPrimos(int max) {
-        int i, j;
-
         if (max >= 2) {
             int arrayLength = max + 1;
             boolean[] esPrimo = new boolean[arrayLength];

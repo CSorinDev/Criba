@@ -1,11 +1,9 @@
-package cribaRefactorizado;
-
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        CribaR criba = new CribaR();
+        Criba criba = new Criba();
 
         int vectorLength = getVectorLength(teclado);
         int[] vector = new int[vectorLength];
